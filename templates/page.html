@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>@title</title>
+		<link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
+		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> 
+	</head>
+	<body>
+		<div id="container">
+			<h1 class="col four">
+				<a href="@root_path">@name</a> / <a href="http://lexfarm.org">LexFarm.org</a>
+			</h1>
+			<hr>
+			:navigation
+			<div id="content" class="col eight">
+				<p class="date col one">&para;</p>
+				<div class="description col six" style="white-space:pre-line">
+					@content
+				</div>
+			</div>
+			<hr>
+			<p id="footer" class="col six"><em>this site created using <a href="http://www.staceyapp.com">Stacey</a></em></p>
+		</div>
+		<script src="@root_path/public/docs/js/navigation.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
